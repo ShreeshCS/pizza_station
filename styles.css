@@ -1,6 +1,6 @@
 html{
     background-image: url('resources/pizza-background.jpg');
-    background-size:100%;
+    background-size:cover;
     background-repeat: no-repeat;
     font-family: sans-serif;
 }
@@ -56,6 +56,18 @@ header{
 button{
     font-size: large;
     color: rgb(211, 226, 209);
-    background-color: rgba(29, 51, 31, 0.678);
-    
+    background-color: rgba(241, 62, 39, 0.55);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30%;
+    font-weight:1000;
+    color: black;
+    max-width: fit-content;
+    justify-content: center;
+}
+
+.customerForm{
+    margin-top: 20px;
 }

@@ -7,11 +7,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="resources/pizza.png">
+    <title>Pizza Station</title>
 </head>
 
 <body>
-    <h2 id="heading">Create your customized pizza </h2>
+    <h2 id="heading" style="font-family:'Lucida Sans Unicode'">Create your customized pizza 😋</h2>
     <form>
         <div class="size">
             <header>Size</header>
@@ -76,11 +77,15 @@
             
 
 
-            <div class="extras">
-
-            </div>
+            <!-- <div class="extras">
+                //TODO: 
+            </div> -->
         </div>
-        <!-- <div class="customerDetails">
+
+    </form>
+
+    <form class="customerForm">
+        <div class="customerDetails">
             <header>Enter Contact Details</header>
             <label for="name">Name</label><br>
             <input type="text" name="name" id="name"><br>
@@ -91,10 +96,13 @@
             <input type="tel" name="phone" id="phone"><br>
             <label for="email">Email</label><br>
             <input type="email" name="email" id="email"><br>
-        </div> -->
-        <button type="submit" value="checkout" onclick="displayOrderSummary()">Place Order</button>
+        </div>
+        <button id="submitBtn" type="submit" value="Checkout" onclick="displayOrderSummary()">Checkout</button>
 
     </form>
+
+
+
     <!-- <form>
         <input type="button" value="click"><br>
         <input type="checkbox">Check 1</input><br>
